@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 import Entry from "./Entry";
 import emojipedia from "../emojipedia"
+import Input from "./Input";
+
 
 function createEntry(emoji) {
     return <Entry
@@ -12,13 +14,29 @@ function createEntry(emoji) {
 }
 
 function App() {
+    const [searchQuery, setSearchQuery] = useState("");
+
+    const handleSearch = (e) => {
+        console.log('Input value:', e.target.value);
+        setSearchQuery(e.target.value);
+    };
+
+    const filteredEmojis = emojipedia.filter(
+        (emoji) =>
+            emoji.name.toLowerCase().startsWith(searchQuery.toLowerCase())
+    );
     return (
         <div>
             <h1>
                 <span>emojipedia</span>
             </h1>
+            <Input
+                value={searchQuery}
+                onChange={handleSearch}
+                placeholder="Search emojis..."
+            />
             <dl className="dictionary">
-                {emojipedia.map(createEntry)}
+                {filteredEmojis.map(createEntry)}
             </dl>
         </div>
     );
