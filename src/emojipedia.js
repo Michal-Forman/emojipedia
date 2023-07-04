@@ -1,448 +1,112 @@
+
 const emojipedia = [
     {
         id: 1,
-        emoji: "💪",
-        name: "Tense Biceps",
-        meaning:
-            "“You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym."
+        emoji: "😀",
+        name: "Grinning Face",
+        meaning: "The grinning face 😀 expresses joy, happiness and satisfaction and is a very common and popular emoji in digital communication. It is often used to simply say hello, to express joy or excitement about something, or to break up a short text. Happiness and good mood are other associations associated with this emoji. In chats, the grinning face can be used to convey positive feelings or a friendly atmosphere. Finally, the 😀 emoji also symbolizes humor and is used to refer to something funny or amusing."
     },
     {
         id: 2,
-        emoji: "🙏",
-        name: "Person With Folded Hands",
-        meaning:
-            "Two hands pressed together. Is currently very introverted, saying a prayer, or hoping for enlightenment. Is also used as a “high five” or to say thank you."
+        emoji: "😃",
+        name: "Smiling Face With Open Mouth",
+        meaning: "The grinning face and big eyes emoji 😃 symbolizes positive vibes, happy laughter and enthusiasm. It is often used as a cheerful greeting of boundless joy. In conversation, this emoji is used to refer to happy moments, funny situations, or exciting events. Big eyes emphasize the intensity of emotion associated with this emoji. It can also be sent to express a feeling of approval or support, focusing on the positive energy and enthusiasm it conveys."
     },
     {
         id: 3,
-        emoji: "🤣",
-        name: "Rolling On The Floor, Laughing",
-        meaning:
-            "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+        emoji: "😄",
+        name: "Smiling Face With Open Mouth And Smiling Eyes",
+        meaning: "A smiling face with laughing eyes 😄 represents loud, boisterous and hearty laughter, with the typical laughing emoji eyes that distinguish a real smile from a fake one. It is often used to indicate humorous situations, funny jokes, or moments of joy. In chats, the emoji can also be sent along with sarcasm or ironic remarks to emphasize the humorous side of a message. Happiness and good humor are important associations. Ultimately, it conveys an atmosphere of well-being and cheerfulness that is transmitted to others."
     },
     {
         id: 4,
-        emoji: "🤣",
-        name: "Rolling On The Floor, Laughing",
-        meaning:
-            "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
-
+        emoji: "😁",
+        name: "Grinning Face With Smiling Eyes",
+        meaning: "A beaming face and laughing eyes 😁. This emoji shows a mischievous grin that represents lightheartedness and exuberance. It is often used to show that you are happy about an event, excited, or just a little embarrassed. In conversation, this emoji can be used to express positive feelings and enthusiasm, whether about personal achievements or joyful expectations. Joking and cheerfulness are other meanings associated with this emoji. Finally, it symbolizes the ability to not take yourself too seriously and to make others smile."
     },
     {
         id: 5,
-        emoji: "🌍",
-        name: "Globe Showing Europe-Africa",
-        meaning: "Representation of the Earth showing the continents of Europe and Africa. It symbolizes global unity, diversity, and interconnectedness."
+        emoji: "😆",
+        name: "Smiling Face With Open Mouth And Closed Eyes",
+        meaning: "I can't stop laughing! Triggered by incredibly funny or ridiculous situations, the grinning and contorted face emoji 😆 expresses the feeling of being on the verge of a fit of laughter. It is often used to express gleeful or mocking laughter at an event or something that has happened to another person. In text communication, this emoji corresponds to “XD“ and “><“ as text-based emoticons. Within chats, it is used to indicate humorous situations or jokes where laughter becomes uncontrollable. Ultimately, the emoji conveys that you can laugh at the absurdities of life while sharing a common sense of humor with others."
     },
     {
         id: 6,
-        emoji: "🐶",
-        name: "Dog",
-        meaning: "Depicting a friendly and loyal canine, often associated with pets, loyalty, and affection."
+        emoji: "🥹",
+        name: "Face Holding Back Tears",
+        meaning: "The 🥹 emoji, which shows a slightly smiling face with tears in its eyes, can express various emotions such as gratitude, emotion, or pride. At the same time, anger or rage can also be the reason why tears can hardly be held back. It is often used to express strong feelings in communication, and the emotional interpretation depends on the context. In conversation, this emoji can be used to convey empathy and compassion, especially when discussing emotional topics. It is also used to express our deep feelings in an authentic and touching way, emphasizing the human side of our communication."
     },
     {
         id: 7,
-        emoji: "🌞",
-        name: "Sun",
-        meaning: "Represents the sun, light, and warmth. It signifies happiness, energy, and a bright day."
+        emoji: "😅",
+        name: "Smiling Face With Open Mouth And Cold Sweat",
+        meaning: "A grinning face with drops of sweat is represented by the 😅 emoji. This is used to express relief that a tricky situation has been successfully handled or just gone well, such as an important meeting. It is also sometimes used to express nervousness or tension about upcoming difficult events. In conversation, this emoji conveys that you can handle stressful situations with humor and composure. It shows how to maintain optimism and cheerfulness during difficult times and how to share these positive feelings with others."
     },
     {
         id: 8,
-        emoji: "📚",
-        name: "Books",
-        meaning: "Symbolizes education, knowledge, and learning. Often used to represent studying, reading, or a library."
+        emoji: "😂",
+        name: "Face With Tears Of Joy",
+        meaning: "The 😂 emoji, which represents a laughing face with tears of joy, expresses that you can barely hold yourself on the chair with laughter. It symbolizes a situation where something is so incredibly funny that you are in tears and in a fit of laughter. Often used to highlight funny or amusing moments where you can barely hold yourself up with laughter. Interestingly, this emoji is one of the most popular and was even chosen as the word of the year in 2015. The 😂 emoji illustrates how laughter and humor bring us together in communication and let us experience joy and happiness together."
     },
     {
         id: 9,
-        emoji: "⚽",
-        name: "Soccer Ball",
-        meaning: "Represents the sport of soccer. It signifies teamwork, competition, and the joy of playing sports."
+        emoji: "🤣",
+        name: "Rolling On The Floor Laughing",
+        meaning: "That's funny! Expressions of pure hilarity are conveyed by the 🤣 emoji, which represents a person rolling on the floor with laughter. It symbolizes that something is so incredibly funny that you can barely contain your laughter. This emoji is the visual variation of the acronym “ROFL“, which stands for “rolling on the floor laughing“. It is often used to express moments of great joy and amusement when you are literally rolling on the floor laughing. Additionally, it expresses the ability to laugh with others at humorous situations and share those memorable moments."
     },
     {
         id: 10,
-        emoji: "🌈",
-        name: "Rainbow",
-        meaning: "A natural phenomenon displaying a spectrum of colors in the sky. It symbolizes hope, diversity, and inclusivity."
+        emoji: "🥲",
+        name: "Smiling Face With Tear",
+        meaning: "The 🥲 emoji stands for smiling through the tough times and symbolizes trying to stay positive even in difficult moments. You are smiling through the pain instead of being truly happy. It shows the ability to hide true feelings behind a smile when dealing with problems or difficult times in life. This emoji is often used to express sympathy and understanding for the personal struggles of others. It reminds us that we are all human and sometimes use a smile as a shield to hide our true feelings."
     },
     {
         id: 11,
-        emoji: "🎵",
-        name: "Musical Note",
-        meaning: "Represents music, melody, and sound. It can signify a song, singing, or a musical instrument."
+        emoji: "☺️",
+        name: "Smiling Face",
+        meaning: "I am as merry as a lark! A classic, satisfied smile is represented by the ☺ emoji and symbolizes pure happiness and contentment. Sometimes interpreted as a shy grin, it can be a response to a nice compliment or a pleasant event. It is often used to express happiness and joy, especially in situations where words are not enough. This emoji can be used to convey positive feelings in a friendly and charming way. It is sure to make the recipient's heart beat faster and put a smile on their face."
     },
     {
         id: 12,
-        emoji: "🍔",
-        name: "Hamburger",
-        meaning: "Depicts a classic hamburger, often associated with fast food and casual dining. It symbolizes indulgence and satisfaction."
+        emoji: "😊",
+        name: "Smiling Face With Smiling Eyes",
+        meaning: "With a shy, embarrassed smile, the 😊 emoji radiates happiness, contentment, peace of mind, and gratitude. The bright eyes and red cheeks that characterize this emoji symbolize joy and warmth. In particular, the red cheeks represent a feeling of embarrassment that often accompanies a compliment or happy surprise. It is often used to convey positive feelings and to make communication friendly and warm. In text form, the 😊 emoji can be represented by ^^. Use it to bring a smile to your conversation partner's face and convey a feeling of affection and goodwill."
     },
     {
         id: 13,
-        emoji: "🌹",
-        name: "Rose",
-        meaning: "A beautiful flower often associated with love, romance, and beauty. It symbolizes affection and admiration."
+        emoji: "😇",
+        name: "Smiling Face With Halo",
+        meaning: "A heavenly smile is shown by the 😇 halo emoji, which symbolizes innocence and goodness. People use it to express their good deeds, loving behavior or exemplary attitude. Sometimes this emoji is used humorously to show a winking innocence for less good deeds or behaviors. It conveys kindness and goodwill and adds a playful touch to communication. You can use it to add charm and lightness to your messages or to round out a humorous comment."
     },
     {
         id: 14,
-        emoji: "😴",
-        name: "Sleeping Face",
-        meaning: "Depicts a sleepy face with a closed eye and a gentle smile. It represents tiredness, sleepiness, or relaxation."
+        emoji: "🙂",
+        name: "Slightly Smiling Face",
+        meaning: "This slightly smiling emoji expresses a pleasant contentment and inner peace. It is used to make a statement seem friendlier, even if it is not necessarily meant that way. In some cases, a slight smile can even have a sarcastic undertone, especially when a smile seems inappropriate for the situation. In such situations, it can be used in a humorous way to suggest a wink or an ironic remark. It is ideal for adding a soft, positive touch to text messages or to make the recipient smile."
     },
     {
         id: 15,
-        emoji: "🎈",
-        name: "Balloon",
-        meaning: "Symbolizes celebration, joy, and parties. It represents a festive atmosphere and is often associated with birthdays or special occasions."
+        emoji: "🙃",
+        name: "Upside-Down Face",
+        meaning: "I'm not serious! The inverted smiling face 🙃 indicates that you are not serious or have a humorous undertone. It is suitable for ambiguous statements, ironic remarks or joking comments. Also, it can be used to express silliness or in response to a joke. In conversations, it emphasizes the playful nature of a message and helps clarify potential misunderstandings about the tone of the message. Additionally, the emoji emphasizes lightness and cheerfulness, even when the topic is serious. Finally, it is a creative way to create a relaxed atmosphere in text messages."
     },
     {
         id: 16,
-        emoji: "🌼",
-        name: "Sunflower",
-        meaning: "Depicts a bright yellow sunflower, often associated with summer and happiness. It symbolizes adoration and loyalty."
+        emoji: "😉",
+        name: "Winking Face",
+        meaning: "A winking 😉 emoji indicates someone is being mischievous or humorous. It shows that someone is joking, flirting, or has a hidden agenda. This emoji is a friendly way to defuse a message and indicate that it should be taken with a grain of salt. It can also be used to share confidential or playful information and create a pleasant atmosphere. In some contexts, the wink even has a teasing or flirtatious meaning, which is especially appealing in romantic or friendly conversations. It also helps break the ice and keep a conversation going."
     },
     {
         id: 17,
-        emoji: "🍦",
-        name: "Ice Cream",
-        meaning: "Represents a scoop or cone of ice cream. It signifies indulgence, sweetness, and enjoyment."
+        emoji: "😌",
+        name: "Relieved Face",
+        meaning: "Everything went well! The relieved face 😌 radiates a calming atmosphere. It is a gentle smile that signals that an unpleasant situation has been successfully handled. Worries and fears can now be put aside as the person feels relaxed and resolved. This emoji can be used to express gratitude or relief when a difficult situation has turned out well. It also conveys a sense of satisfaction and letting go of stress or tension, which creates a pleasant mood."
     },
     {
         id: 18,
-        emoji: "🌟",
-        name: "Star",
-        meaning: "Symbolizes achievement, success, and brilliance. It represents something exceptional or outstanding."
-    },
-    {
-        id: 19,
-        emoji: "📷",
-        name: "Camera",
-        meaning: "Depicts a classic camera, often associated with photography and capturing moments. It symbolizes creativity and memories."
-    },
-    {
-        id: 20,
-        emoji: "🌈",
-        name: "Rainbow",
-        meaning: "A natural phenomenon displaying a spectrum of colors in the sky. It symbolizes hope, diversity, and inclusivity."
-    },
-    {
-        id: 21,
-        emoji: "🐱",
-        name: "Cat Face",
-        meaning: "Depicts a cat face with various expressions. It represents playfulness, curiosity, and affection."
-    },
-    {
-        id: 22,
-        emoji: "🌊",
-        name: "Wave",
-        meaning: "Symbolizes the ocean, water, and movement. It can represent tranquility, power, or the beach."
-    },
-    {
-        id: 23,
-        emoji: "🎮",
-        name: "Video Game",
-        meaning: "Represents a video game controller or console. It symbolizes entertainment, fun, and gaming."
-    },
-    {
-        id: 24,
-        emoji: "🍎",
-        name: "Red Apple",
-        meaning: "Depicts a shiny red apple, often associated with health, nutrition, and teachers. It symbolizes knowledge and vitality."
-    },
-    {
-        id: 25,
-        emoji: "🚀",
-        name: "Rocket",
-        meaning: "Represents a rocket ship blasting off into space. It symbolizes ambition, progress, and reaching new heights."
-    },
-    {
-        id: 26,
-        emoji: "🎓",
-        name: "Graduation Cap",
-        meaning: "Depicts a graduation cap, often associated with academic achievement and graduation ceremonies. It symbolizes education and accomplishment."
-    },
-    {
-        id: 27,
-        emoji: "🌙",
-        name: "Crescent Moon",
-        meaning: "Represents a crescent-shaped moon, often associated with nighttime, dreams, and magic. It symbolizes mystery and tranquility."
-    },
-    {
-        id: 28,
-        emoji: "🎁",
-        name: "Wrapped Gift",
-        meaning: "Depicts a wrapped gift box, often associated with celebrations and special occasions. It symbolizes surprise and generosity."
-    },
-    {
-        id: 29,
-        emoji: "📚",
-        name: "Books",
-        meaning: "Symbolizes education, knowledge, and learning. Often used to represent studying, reading, or a library."
-    },
-    {
-        id: 30,
-        emoji: "⚡",
-        name: "High Voltage",
-        meaning: "Represents a high voltage sign or lightning bolt. It symbolizes energy, power, and intensity."
-    },
-    {
-        id: 31,
-        emoji: "🐶",
-        name: "Dog Face",
-        meaning: "Depicts a dog face, often associated with loyalty, companionship, and cuteness. It represents love for dogs."
-    },
-    {
-        id: 32,
-        emoji: "🌸",
-        name: "Cherry Blossom",
-        meaning: "Symbolizes the beauty and transient nature of cherry blossoms. It represents renewal, spring, and the impermanence of life."
-    },
-    {
-        id: 33,
-        emoji: "🍕",
-        name: "Pizza",
-        meaning: "A popular Italian dish consisting of a round flatbread topped with ingredients like cheese, tomato sauce, and various toppings. It symbolizes comfort food and enjoyment."
-    },
-    {
-        id: 34,
-        emoji: "🌳",
-        name: "Deciduous Tree",
-        meaning: "Represents a leafy deciduous tree, often associated with nature, growth, and vitality. It symbolizes strength and endurance."
-    },
-    {
-        id: 35,
-        emoji: "🎂",
-        name: "Birthday Cake",
-        meaning: "Depicts a celebratory birthday cake with candles. It symbolizes birthdays, parties, and joyous occasions."
-    },
-    {
-        id: 36,
-        emoji: "🌞",
-        name: "Sun with Face",
-        meaning: "Depicts a smiling sun with a face, often associated with warmth, happiness, and sunny weather. It symbolizes positivity and optimism."
-    },
-    {
-        id: 37,
-        emoji: "🌞",
-        name: "Sun with Face",
-        meaning: "Depicts a smiling sun with a face, often associated with warmth, happiness, and sunny weather. It symbolizes positivity and optimism."
-    },
-    {
-        id: 38,
-        emoji: "🌺",
-        name: "Hibiscus",
-        meaning: "A vibrant flower often associated with tropical regions and beauty. It symbolizes delicate beauty and grace."
-    },
-    {
-        id: 39,
-        emoji: "🎶",
-        name: "Musical Notes",
-        meaning: "Represents multiple musical notes together. It symbolizes music, rhythm, and harmony."
-    },
-    {
-        id: 40,
-        emoji: "🍂",
-        name: "Fallen Leaf",
-        meaning: "Depicts a fallen leaf, often associated with autumn and the changing seasons. It symbolizes nature's cycle and transition."
-    },
-    {
-        id: 41,
-        emoji: "📝",
-        name: "Memo",
-        meaning: "Represents a memo or a piece of paper with writing. It symbolizes note-taking, reminders, or written communication."
-    },
-    {
-        id: 42,
-        emoji: "🌵",
-        name: "Cactus",
-        meaning: "Depicts a cactus plant, often associated with desert regions and resilience. It symbolizes endurance and adaptability."
-    },
-    {
-        id: 43,
-        emoji: "🍁",
-        name: "Maple Leaf",
-        meaning: "Symbolizes a maple leaf, often associated with autumn, Canada, and national pride. It represents beauty and change."
-    },
-    {
-        id: 44,
-        emoji: "🏆",
-        name: "Trophy",
-        meaning: "Represents a trophy, often associated with victory, achievement, and success. It symbolizes recognition and excellence."
-    },
-    {
-        id: 45,
-        emoji: "🌟",
-        name: "Star",
-        meaning: "Depicts a star shape, often associated with fame, brilliance, and achievement. It symbolizes aspiration and inspiration."
-    },
-    {
-        id: 46,
-        emoji: "🌊",
-        name: "Ocean Wave",
-        meaning: "Depicts a wave, often associated with the ocean, water, and movement. It symbolizes strength and the ebb and flow of life."
-    },
-    {
-        id: 46,
-        emoji: "🌊",
-        name: "Ocean Wave",
-        meaning: "Depicts a wave, often associated with the ocean, water, and movement. It symbolizes strength and the ebb and flow of life."
-    },
-    {
-        id: 47,
-        emoji: "🌮",
-        name: "Taco",
-        meaning: "Represents a traditional Mexican taco, often associated with Mexican cuisine and food. It symbolizes deliciousness and flavor."
-    },
-    {
-        id: 48,
-        emoji: "🌻",
-        name: "Sunflower",
-        meaning: "Depicts a bright yellow sunflower, often associated with summer and happiness. It symbolizes adoration and loyalty."
-    },
-    {
-        id: 49,
-        emoji: "📺",
-        name: "Television",
-        meaning: "Represents a television set, often associated with entertainment and media. It symbolizes watching TV shows, movies, or news."
-    },
-    {
-        id: 50,
-        emoji: "🌍",
-        name: "Globe Showing Europe-Africa",
-        meaning: "Depicts a globe, showing the continents of Europe and Africa. It symbolizes global awareness and international connections."
-    },
-    {
-        id: 51,
-        emoji: "🍩",
-        name: "Donut",
-        meaning: "Depicts a delicious donut with a hole in the center, often associated with desserts and indulgence. It symbolizes sweetness and treat."
-    },
-    {
-        id: 52,
-        emoji: "🎉",
-        name: "Party Popper",
-        meaning: "Represents a party popper, often associated with celebrations and joyous occasions. It symbolizes excitement and festivity."
-    },
-    {
-        id: 53,
-        emoji: "🐼",
-        name: "Panda",
-        meaning: "Depicts a cute panda, often associated with pandas' playful and gentle nature. It symbolizes cuteness and endangered species."
-    },
-    {
-        id: 54,
-        emoji: "🌴",
-        name: "Palm Tree",
-        meaning: "Symbolizes a tall palm tree, often associated with tropical regions and vacations. It represents relaxation and paradise."
-    },
-    {
-        id: 55,
-        emoji: "🍓",
-        name: "Strawberry",
-        meaning: "Depicts a juicy red strawberry, often associated with summer and sweetness. It symbolizes freshness and natural goodness."
-    },
-    {
-        id: 56,
-        emoji: "🚲",
-        name: "Bicycle",
-        meaning: "Represents a bicycle, often associated with transportation and exercise. It symbolizes freedom and eco-friendly travel."
-    },
-    {
-        id: 57,
-        emoji: "🌈",
-        name: "Rainbow",
-        meaning: "Depicts a colorful rainbow, often associated with hope, diversity, and LGBTQ+ pride. It symbolizes positivity and unity."
-    },
-    {
-        id: 58,
-        emoji: "🍦",
-        name: "Ice Cream",
-        meaning: "Depicts a delicious ice cream cone, often associated with desserts and summer treats. It symbolizes sweetness and indulgence."
-    },
-    {
-        id: 59,
-        emoji: "📷",
-        name: "Camera",
-        meaning: "Represents a camera, often associated with photography and capturing moments. It symbolizes creativity and documentation."
-    },
-    {
-        id: 60,
-        emoji: "🐝",
-        name: "Bee",
-        meaning: "Depicts a buzzing bee, often associated with pollination and nature. It symbolizes hard work, cooperation, and community."
-    },
-    {
-        id: 61,
-        emoji: "⏰",
-        name: "Alarm Clock",
-        meaning: "Represents an alarm clock, often associated with waking up and time management. It symbolizes punctuality and productivity."
-    },
-    {
-        id: 62,
-        emoji: "🌮",
-        name: "Taco",
-        meaning: "Represents a traditional Mexican taco, often associated with Mexican cuisine and food. It symbolizes deliciousness and flavor."
-    },
-    {
-        id: 64,
-        emoji: "🍕",
-        name: "Pizza",
-        meaning: "Depicts a delicious pizza, often associated with Italian cuisine and comfort food. It symbolizes indulgence and satisfaction."
-    },
-    {
-        id: 65,
-        emoji: "🚀",
-        name: "Rocket",
-        meaning: "Represents a rocket launching into space, often associated with exploration and ambition. It symbolizes progress and reaching new heights."
-    },
-    {
-        id: 66,
-        emoji: "🎮",
-        name: "Video Game",
-        meaning: "Depicts a video game controller, often associated with gaming and entertainment. It symbolizes fun and escapism."
-    },
-    {
-        id: 67,
-        emoji: "🌸",
-        name: "Cherry Blossom",
-        meaning: "Symbolizes a blooming cherry blossom, often associated with spring, beauty, and renewal. It represents ephemeral nature and appreciation of the present moment."
-    },
-    {
-        id: 68,
-        emoji: "🍎",
-        name: "Red Apple",
-        meaning: "Depicts a bright red apple, often associated with health, nutrition, and education. It symbolizes freshness and vitality."
-    },
-    {
-        id: 69,
-        emoji: "🐢",
-        name: "Turtle",
-        meaning: "Depicts a cute turtle, often associated with slow and steady movement. It symbolizes patience and longevity."
-    },
-    {
-        id: 70,
-        emoji: "⛰️",
-        name: "Mountain",
-        meaning: "Represents a mountain peak, often associated with nature, adventure, and resilience. It symbolizes strength and overcoming challenges."
-    },
-    {
-        id: 71,
-        emoji: "📚",
-        name: "Books",
-        meaning: "Depict a stack of books, often associated with knowledge, learning, and education. It symbolizes wisdom and intellectual growth."
-    },
-    {
-        id: 72,
-        emoji: "🐾",
-        name: "Paw Prints",
-        meaning: "Depicts the imprints of animal paws, often associated with pets and wildlife. It symbolizes companionship and animal presence."
-    },
-    {
-        id: 73,
-        emoji: "🌞",
-        name: "Sun with Face",
-        meaning: "Depicts a smiling sun with a face, often associated with warmth, happiness, and sunny weather. It symbolizes positivity and optimism."
+        emoji: "😍",
+        name: "Smiling Face With Heart-Eyes",
+        meaning: "A smile of love is shown by the 😍 emoji, which beams with happiness with its heart-shaped eyes. It conveys intense love and affection for a person, place or even an object. This emoji is often used in romantic messages to express love, gratitude, and admiration. It can also be used to convey enthusiasm for a cause or event. The heart-shaped eyes symbolize overwhelming feelings of happiness and a strong connection."
     }
-
 ];
-
 export default emojipedia;
