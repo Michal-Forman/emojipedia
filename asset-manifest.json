@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Michal-Forman/emojipedia.git/static/js/main.9ad5ab49.js",
-    "index.html": "/Michal-Forman/emojipedia.git/index.html",
-    "main.9ad5ab49.js.map": "/Michal-Forman/emojipedia.git/static/js/main.9ad5ab49.js.map"
+    "main.js": "/emojipedia/static/js/main.9ad5ab49.js",
+    "index.html": "/emojipedia/index.html",
+    "main.9ad5ab49.js.map": "/emojipedia/static/js/main.9ad5ab49.js.map"
   },
   "entrypoints": [
     "static/js/main.9ad5ab49.js"
