@@ -382,6 +382,67 @@ const emojipedia = [
         name: "Taco",
         meaning: "Represents a traditional Mexican taco, often associated with Mexican cuisine and food. It symbolizes deliciousness and flavor."
     },
+    {
+        id: 64,
+        emoji: "🍕",
+        name: "Pizza",
+        meaning: "Depicts a delicious pizza, often associated with Italian cuisine and comfort food. It symbolizes indulgence and satisfaction."
+    },
+    {
+        id: 65,
+        emoji: "🚀",
+        name: "Rocket",
+        meaning: "Represents a rocket launching into space, often associated with exploration and ambition. It symbolizes progress and reaching new heights."
+    },
+    {
+        id: 66,
+        emoji: "🎮",
+        name: "Video Game",
+        meaning: "Depicts a video game controller, often associated with gaming and entertainment. It symbolizes fun and escapism."
+    },
+    {
+        id: 67,
+        emoji: "🌸",
+        name: "Cherry Blossom",
+        meaning: "Symbolizes a blooming cherry blossom, often associated with spring, beauty, and renewal. It represents ephemeral nature and appreciation of the present moment."
+    },
+    {
+        id: 68,
+        emoji: "🍎",
+        name: "Red Apple",
+        meaning: "Depicts a bright red apple, often associated with health, nutrition, and education. It symbolizes freshness and vitality."
+    },
+    {
+        id: 69,
+        emoji: "🐢",
+        name: "Turtle",
+        meaning: "Depicts a cute turtle, often associated with slow and steady movement. It symbolizes patience and longevity."
+    },
+    {
+        id: 70,
+        emoji: "⛰️",
+        name: "Mountain",
+        meaning: "Represents a mountain peak, often associated with nature, adventure, and resilience. It symbolizes strength and overcoming challenges."
+    },
+    {
+        id: 71,
+        emoji: "📚",
+        name: "Books",
+        meaning: "Depict a stack of books, often associated with knowledge, learning, and education. It symbolizes wisdom and intellectual growth."
+    },
+    {
+        id: 72,
+        emoji: "🐾",
+        name: "Paw Prints",
+        meaning: "Depicts the imprints of animal paws, often associated with pets and wildlife. It symbolizes companionship and animal presence."
+    },
+    {
+        id: 73,
+        emoji: "🌞",
+        name: "Sun with Face",
+        meaning: "Depicts a smiling sun with a face, often associated with warmth, happiness, and sunny weather. It symbolizes positivity and optimism."
+    }
+
 ];
 
 export default emojipedia;
