@@ -1,30 +1,27 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Entry from "./Entry";
-import emojipedia from "../emojipedia"
+import emojipedia from "../emojipedia";
 import Input from "./Input";
 
-
 function createEntry(emoji) {
-    return <Entry
-        key={emoji.id}
-        emoji={emoji.emoji}
-        name={emoji.name}
-        meaning={emoji.meaning}
-    />
+    return (
+        <Entry key={emoji.id} emoji={emoji.emoji} name={emoji.name} meaning={emoji.meaning} />
+    );
 }
 
 function App() {
     const [searchQuery, setSearchQuery] = useState("");
 
     const handleSearch = (e) => {
-        console.log('Input value:', e.target.value);
         setSearchQuery(e.target.value);
     };
 
-    const filteredEmojis = emojipedia.filter(
-        (emoji) =>
-            emoji.name.toLowerCase().startsWith(searchQuery.toLowerCase())
-    );
+    const filteredEmojis = emojipedia.filter((emoji) => {
+        const { name, emoji: emojiChar } = emoji;
+        const query = searchQuery.toLowerCase();
+        return name.toLowerCase().includes(query) || emojiChar.includes(query);
+    });
+
     return (
         <div>
             <h1>
@@ -33,7 +30,7 @@ function App() {
             <Input
                 value={searchQuery}
                 onChange={handleSearch}
-                placeholder="Search emojis..."
+                placeholder="Search by name or emoji..."
             />
             <dl className="dictionary">
                 {filteredEmojis.map(createEntry)}
