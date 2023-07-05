@@ -29,10 +29,12 @@ h1 span {
 }
 
 input {
+    width: 200px;
     position: relative;
-    left: calc(50% - 90px);
+    left: calc(50% - 120px);
     top: 30px;
     background-color: var(--orange);
+    text-align: center;
     border: none;
     padding: 10px 20px;
     border-radius: 30px;
@@ -44,7 +46,7 @@ input:focus {
 }
 
 input::placeholder {
-    color: var(--blue);
+    color: var(--red);
 }
 
 .dictionary {
