@@ -30,7 +30,7 @@ function App() {
             <Input
                 value={searchQuery}
                 onChange={handleSearch}
-                placeholder="Search emoji..."
+                placeholder="Search by name or emoji..."
             />
             <dl className="dictionary">
                 {filteredEmojis.map(createEntry)}
