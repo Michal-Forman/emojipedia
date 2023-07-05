@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "//michal-forman.github.io/emojipedia/static/js/main.e287f8f9.js",
-    "index.html": "//michal-forman.github.io/emojipedia/index.html",
-    "main.e287f8f9.js.map": "//michal-forman.github.io/emojipedia/static/js/main.e287f8f9.js.map"
+    "main.js": "/static/js/main.f760e31f.js",
+    "index.html": "/index.html",
+    "main.f760e31f.js.map": "/static/js/main.f760e31f.js.map"
   },
   "entrypoints": [
-    "static/js/main.e287f8f9.js"
+    "static/js/main.f760e31f.js"
   ]
 }
